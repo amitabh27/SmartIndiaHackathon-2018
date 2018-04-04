@@ -1,0 +1,31 @@
+{
+  "name": "CabChain",
+  "version": "1.0.0",
+  "description": "Admin module for cab service",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "*",
+	"async": "^2.6.0",
+    "express": "*",
+    "jquery": "*",
+    "request": "*",
+	"cheerio"    : "*",
+	"nodemailer":"*",
+	"nexmo":"*",
+	"node-datetime":"*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitabh27"
+  },
+  "engines": {
+    "node": "6.11.4",
+    "npm": "3.10.10"
+  },
+  "author": "amitabh",
+  "license": "ISC"
+}
